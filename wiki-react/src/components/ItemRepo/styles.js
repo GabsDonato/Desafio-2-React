@@ -16,6 +16,8 @@ export const ItemContainer = styled.div`
 
     a {
         text-decoration: none ;
+        font-family: Arial;
+        font-weight: 600;
     }
 
     a.remover {
