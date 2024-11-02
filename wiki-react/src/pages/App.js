@@ -1,9 +1,11 @@
+import gitLogo from '../assets/github.png';
 
+import { Container } from './styles';
 function App() {
   return (
-    <div className="App">
-      Olá
-    </div>
+    <Container>
+      <img src={gitLogo} width={72} height={72} alt='logo github'/>
+    </Container>
   );
 }
 
